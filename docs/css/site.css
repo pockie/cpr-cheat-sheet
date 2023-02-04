@@ -18,12 +18,13 @@ body {
 }
 .a4-portrait {
     position: relative;
-    background: white;
     display: block;
     margin: 0 auto 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     width: 21cm;
     height: 29.7cm;
+    background: url(../images/background.png);
+    background-size: contain;
 }
 
 footer {
@@ -32,7 +33,7 @@ footer {
     right: 0;
     bottom: 0;
     color: #000;
-    padding: 3mm 1.5cm 5mm;
+    padding: 3mm 1.5cm 2mm;
     display: flex;
     justify-content: space-between;
 }
@@ -40,11 +41,18 @@ footer {
 .page-number {
     font-weight: bold;
     font-size: 16px;
+    background-color: #ffffff;
+    padding: 2.5mm;
+}
+
+.copyright {
+    background-color: #ffffff;
+    padding: 2.5mm;
 }
 
 .page-content {
-    margin-left: 1.5cm;
-    margin-right: 1cm;
+    margin-left: 1.4cm;
+    margin-right: 1.4cm;
     padding-top: 0.5cm;
     padding-bottom: 0.5cm;
 }
@@ -52,7 +60,7 @@ footer {
 h1 {
     text-align: center;
     font-size: 26px;
-    color: #cd2417;
+    color: #E42318;
     margin-top: 26px;
     margin-bottom: 15px;
     font-family: Cyberpunk, sans-serif;
@@ -71,7 +79,7 @@ h2 {
     margin-top: 0.5cm;
     margin-bottom: 0.2cm;
     font-variant: small-caps;
-    border-bottom: 5px solid #cd2417;
+    border-bottom: 5px solid #E42318;
 }
 
 .bold {
@@ -88,7 +96,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 0.1cm;
-    border-bottom: 4px solid #cd2417;
+    border-bottom: 4px solid #E42318;
 }
 
 table td, table th {
@@ -98,19 +106,19 @@ table td, table th {
 td,
 th,
 table {
-    border-left: 4px solid #cd2417;
-    border-right: 4px solid #cd2417;
+    border-left: 4px solid #E42318;
+    border-right: 4px solid #E42318;
     border-top: 0;
-    border-bottom: 4px solid #cd2417;
+    border-bottom: 4px solid #E42318;
 }
 
 thead {
-    background-color: #cd2417;
+    background-color: #E42318;
     color: #ffffff;
 }
 
 table tr:first-child{
-    border-top: 4px solid #cd2417;
+    border-top: 4px solid #E42318;
 }
 
 table tr:nth-child(even){
@@ -130,8 +138,8 @@ table th {
 }
 
 .dice-code {
-    background-color: #cd2417;
-    border: 1px solid #cd2417;
+    background-color: #E42318;
+    border: 1px solid #E42318;
     clip-path:
             polygon(
                     4% 0%,     /* top left */
