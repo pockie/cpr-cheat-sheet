@@ -175,6 +175,7 @@ table th {
 @media print {
     body, .a4-portrait {
         margin: 0;
-        box-shadow: 0;
+        box-shadow: none;
+        background-color: #ffffff;
     }
 }
