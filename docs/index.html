@@ -15,40 +15,70 @@
         </section>
         <section>
             <h2>Glossar</h2>
-            <div>
-                <span class="bold">GM:</span>
-                <span>Game Master</span>
-            </div>
-            <div>
-                <span class="bold">NPC/NSC:</span>
-                <span>Non playable character oder Nichtspielercharakter</span>
-            </div>
-            <div>
-                <span class="bold">Zug (Turn):</span>
-                <span>Zeit in der ein Spieler/NPC ihren Aktionen durchführen können – ca. 3 Sekunden in Spielzeit</span>
-            </div>
-            <div>
-                <span class="bold">Runde (Round):</span>
-                <span>Zusammenfassung von allen Zügen pro Charakter. Eine Runde endet, wenn alle Charaktere ihren Zug
-                    gespielt
-                    haben. Da die Züge gleichzeitig ablaufen, dauert eine Runde auch ca. drei Sekunden
-                </span>
-            </div>
-            <div>
-                <span class="bold">Aktion (Action):</span>
-                <span>Jeder Charakter hat pro Zug zwei Aktionen – einne Move Action und eine Action</span>
-            </div>
-            <div>
-                <span class="bold">HP:</span>
-                <span>Lebenspunkte (Hitpoints)</span>
-            </div>
-            <div>
-                <span class="bold">SP:</span>
-                <span>Stopping Power</span>
-            </div>
-            <div>
-                <span class="bold">DV:</span>
-                <span>Schwierigkeitsgrad (Difficulty Value)</span>
+            <div class="table">
+                <div class="row table-header">
+                    <div class="col">Begriff</div>
+                    <div class="col col-last">Erklärung</div>
+                </div>
+                <div class="row">
+                    <div class="col">GM</div>
+                    <div class="col col-last">Game Master</div>
+                </div>
+                <div class="row even">
+                    <div class="col">NPC/NSC</div>
+                    <div class="col col-last">Non playable character oder Nichtspielercharakter</div>
+                </div>
+                <div class="row">
+                    <div class="col">Zug (Turn)</div>
+                    <div class="col col-last">Zeit in der ein Spieler/NPC ihren Aktionen durchführen können – ca. 3
+                        Sekunden in Spielzeit
+                    </div>
+                </div>
+                <div class="row even">
+                    <div class="col">Runde (Round)</div>
+                    <div class="col col-last">
+                        Zusammenfassung von allen Zügen pro Charakter. Eine Runde endet, wenn alle Charaktere ihren Zug
+                        gespielt haben. Da die Züge gleichzeitig ablaufen, dauert eine Runde auch ca. drei Sekunden
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">Aktion (Action)</div>
+                    <div class="col col-last">
+                        Jeder Charakter hat pro Zug zwei Aktionen – einne Move Action und eine Action
+                    </div>
+                </div>
+                <div class="row even">
+                    <div class="col">HP</div>
+                    <div class="col col-last">
+                        Lebenspunkte (Hitpoints)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">SP</div>
+                    <div class="col col-last">
+                        Stopping Power
+                    </div>
+                </div>
+                <div class="row even">
+                    <div class="col">DV</div>
+                    <div class="col col-last">
+                        Schwierigkeitsgrad (Difficulty Value)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">Critical Success</div>
+                    <div class="col col-last">
+                        Du würfelst eine 10 mit einem D10. Würfel nochmal einen D10 und addiere das Ergebnis auf dein
+                        STAT + Skill + dem ersten Wurf.
+                    </div>
+                </div>
+                <div class="row even row-last">
+                    <div class="col">Critical Failure</div>
+                    <div class="col col-last">
+                        Du würfelst eine 1 mit einem D10. Würfel nochmal einen D10 und subtrahiere das Ergebnis von dein
+                        STAT + Skill + dem ersten Wurf.
+                    </div>
+                </div>
             </div>
         </section>
         <section>
@@ -62,7 +92,7 @@
             <h2>Aktionen</h2>
             <div class="text-content">Folgende Dinge können in Aktionen durchgeführt werden.</div>
             <div>
-                <div class="common-actions">
+                <div class="table">
                     <div class="row">
                         <div class="col">Move Action</div>
                         <div class="col">Angriff</div>
@@ -97,10 +127,23 @@
                 </div>
                 <div class="text-content">
                     Keine Aktionen sind: Ziehen von leicht zu erreichenden Waffen, Fallen lassen von Waffen, Ausnahme
-                    Schild. Waffen verstauen ist eine Aktion
+                    Schild. Waffen verstauen ist eine Aktion.
                 </div>
             </div>
         </section>
+    </div>
+    <footer>
+        <div class="copyright">
+            Content © R. Talsorian Games, Inc. <br>
+            Code © Pockie
+        </div>
+        <div class="page-number">
+            Seite 1
+        </div>
+    </footer>
+</section>
+<section class="a4-portrait">
+    <div class="page-content">
         <section>
             <h2>Fernkampf (Ranged Combat)</h2>
             <div class="dice-code">
@@ -121,19 +164,6 @@
                 </div>
             </div>
         </section>
-    </div>
-    <footer>
-        <div class="copyright">
-            Content © R. Talsorian Games, Inc. <br>
-            Code © Pockie
-        </div>
-        <div class="page-number">
-            Seite 1
-        </div>
-    </footer>
-</section>
-<section class="a4-portrait">
-    <div class="page-content">
         <section>
             <h2>Schaden entgegenwirken (in Deckung gehen)</h2>
             <div class="text-content">Goldene Regeln der Deckung</div>
@@ -177,10 +207,12 @@
                 Der Schaden wird immer von deiner Körperrüstung abgezogen, wenn der Gegner nicht direkt auf deinen Kopf
                 zielt. Deine Rüstung wirkt nicht gegen Dinge wie Gift oder Feuer.
             </div>
+            <section>
+                <h2>Line Sight</h2>
+            </section>
         </section>
     </div>
     <footer>
-
         <div class="copyright">
             Content © R. Talsorian Games, Inc. <br>
             Code © Pockie
@@ -190,7 +222,89 @@
         </div>
     </footer>
 </section>
+<section class="a4-portrait">
+    <div class="page-content">
+        <section>
+            <h2>Role Abilities</h2>
+            <div class="text-content">
+                Eine Rolle ist in CPR eine selbstbezeichnende Bezeichnung. Deine Rolle startet im Rang 4 in deiner Role
+                Ability.
+            </div>
+            <h3>Combat Awareness - Solo (<span class="bold">Agile</span>, Seite 146)</h3>
+            <div class="text-content">
+                Die Ability kann for einem Kampf bevor die Initiative gerollt wird, jederzeit außerhalb eines Kampfes
+                oder in einem Kampf in einer Action genutzt werden.
+            </div>
+            <div class="table">
+                <div class="row table-header">
+                    <div class="col">Ability</div>
+                    <div class="col col-last">Erklärung</div>
+                </div>
+                <div class="row">
+                    <div class="col">Damage Deflection</div>
+                    <div class="col col-last">Reduziert den Schaden, den dir Gegner zufügen.</div>
+                </div>
+                <div class="row even">
+                    <div class="col">Fumble Recovery</div>
+                    <div class="col col-last">Du erholst dich sofort von Critical Failures (für 1 Sekunde).</div>
+                </div>
+                <div class="row">
+                    <div class="col">Initiative Reaction</div>
+                    <div class="col col-last">
+                        Deine Reflexe reagieren sofort zu Beginn eines Kampfes, ohne nachzudenken. Jeder Punkt fügt +1
+                        auf deinen Initiative Roll hinzu.
+                    </div>
+                </div>
+                <div class="row even">
+                    <div class="col">Precision Attack</div>
+                    <div class="col col-last">
+                        Du bist trainiert Gegner mit hoher Präzision anzuvisieren. Du besitzt größere Genauigkeit.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">Spot Weakness</div>
+                    <div class="col col-last">
+                        Du siehst Schwachstellen, auch in schweren Rüstungen. Jeder Punkt fügt deinem Schaden beim
+                        ersten erfolgreichen Angriff (vor Rüstung) +1 pro Runde hinzu.
+                    </div>
+                </div>
+                <div class="row even row-last">
+                    <div class="col">Threat Detection</div>
+                    <div class="col col-last">
+                        Du hast besseres Situationsbewusstsen. Für jedem Perception Check +1 hinzu.
+                    </div>
+                </div>
+            </div>
+            <h3>Medicine - Medtech (<span class="bold">Xy</span>, Seite 149)</h3>
+            <div class="text-content">
 
+            </div>
+            <div class="table">
+                <div class="row table-header">
+                    <div class="col">Ability</div>
+                    <div class="col col-last">Erklärung</div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col col-last"></div>
+                </div>
+                <div class="row even">
+                    <div class="col"></div>
+                    <div class="col col-last"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="copyright">
+            Content © R. Talsorian Games, Inc. <br>
+            Code © Pockie
+        </div>
+        <div class="page-number">
+            Seite 3
+        </div>
+    </footer>
+</section>
 <footer class="non-a4-footer">
     <div class="copyright">
         Content © R. Talsorian Games, Inc. <br>
