@@ -11,10 +11,75 @@
     <div class="page-content">
         <section>
             <h1>Friday Night Firefight</h1>
-            <div class="sub-title">Cheat Sheet zum Cyberpunk Red-Kampfsystem</div>
+            <div class="sub-title">Cheat Sheet zum Cyberpunk Red-Kampfsystem und Role Abilities</div>
         </section>
         <section>
-            <h2>Glossar</h2>
+            <h2>Inhaltsverzeichnis</h2>
+            <div class="toc-content">
+                <a href="index.html#glossary" class="toc-row">
+                    <div>Glossar</div>
+                    <div class="toc-page">Seite 2</div>
+                </a>
+                <a href="index.html#common" class="toc-row">
+                    <div>Allgemein</div>
+                    <div class="toc-page">Seite 2</div>
+                </a>
+                <a href="index.html#actions" class="toc-row">
+                    <div>Aktionen</div>
+                    <div class="toc-page">Seite 2</div>
+                </a>
+                <a href="index.html#ranged-combat" class="toc-row">
+                    <div>Fernkampf</div>
+                    <div class="toc-page">Seite 3</div>
+                </a>
+                <a href="index.html#melee-combat" class="toc-row">
+                    <div>Nahkampf</div>
+                    <div class="toc-page">Seite 3</div>
+                </a>
+                <a href="index.html#taking-cover" class="toc-row">
+                    <div>Schaden entgegenwirken</div>
+                    <div class="toc-page">Seite 3</div>
+                </a>
+                <a href="index.html#armor" class="toc-row">
+                    <div>Rüstung</div>
+                    <div class="toc-page">Seite 3</div>
+                </a>
+                <a href="index.html#getting-hurt" class="toc-row">
+                    <div>Schaden nehmen</div>
+                    <div class="toc-page">Seite 3</div>
+                </a>
+                <a href="index.html#line-of-sight" class="toc-row">
+                    <div>Line of sight</div>
+                    <div class="toc-page">Seite 4</div>
+                </a>
+                <a href="index.html#role-abilities" class="toc-row">
+                    <div>Role Abilities</div>
+                    <div class="toc-page">Seite 5</div>
+                </a>
+                <a href="index.html#combat-awareness" class="toc-row">
+                    <div>Combat Awareness - Solo (Agile)</div>
+                    <div class="toc-page">Seite 5</div>
+                </a>
+                <a href="index.html#medicine" class="toc-row">
+                    <div>Medicine - Medtech (Xy)</div>
+                    <div class="toc-page">Seite 5</div>
+                </a>
+                <a href="index.html#credibility" class="toc-row">
+                    <div>Credibility (Glaubwürdigkeit) - Media (Shooting Star)</div>
+                    <div class="toc-page">Seite 6</div>
+                </a>
+                <a href="index.html#moto" class="toc-row">
+                    <div>Moto - Nomad (Lily)</div>
+                    <div class="toc-page">Seite 6</div>
+                </a>
+            </div>
+        </section>
+    </div>
+</section>
+<section class="a4-portrait">
+    <div class="page-content">
+        <section>
+            <h2 id="glossary">Glossar</h2>
             <div class="table">
                 <div class="row table-header">
                     <div class="col">Begriff</div>
@@ -37,20 +102,20 @@
                 <div class="row even">
                     <div class="col">Runde (Round)</div>
                     <div class="col col-last">
-                        Zusammenfassung von allen Zügen pro Charakter. Eine Runde endet, wenn alle Charaktere ihren Zug
+                        Zusammenfassung aller Züge pro Charakter. Eine Runde endet, wenn alle Charaktere ihren Zug
                         gespielt haben. Da die Züge gleichzeitig ablaufen, dauert eine Runde auch ca. drei Sekunden
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">Aktion (Action)</div>
                     <div class="col col-last">
-                        Jeder Charakter hat pro Zug zwei Aktionen – einne Move Action und eine Action
+                        Jeder Charakter hat pro Zug zwei Aktionen – eine Move Action und eine Action
                     </div>
                 </div>
                 <div class="row even">
                     <div class="col">HP</div>
                     <div class="col col-last">
-                        Lebenspunkte (Hitpoints)
+                        Lebenspunkte (Hit Points)
                     </div>
                 </div>
                 <div class="row">
@@ -73,29 +138,29 @@
                     </div>
                 </div>
                 <div class="row even">
-                    <div class="col">Luck (Glück)</div>
+                    <div class="col">Critical Failure</div>
                     <div class="col col-last">
-                        Du kannst Punkte aus diesem STAT verwenden, um Würfelwürfe zu deinen Gunsten auszugleichen.
+                        Du würfelst eine 1 mit einem d10. Würfel nochmal einen d10 und subtrahiere das Ergebnis von
+                        deinem STAT + Skill + dem ersten Wurf.
                     </div>
                 </div>
                 <div class="row even row-last">
-                    <div class="col">Critical Failure</div>
+                    <div class="col">Luck (Glück)</div>
                     <div class="col col-last">
-                        Du würfelst eine 1 mit einem d10. Würfel nochmal einen d10 und subtrahiere das Ergebnis von dein
-                        STAT + Skill + dem ersten Wurf.
+                        Du kannst Punkte aus diesem STAT verwenden, um Würfelwürfe zu deinen Gunsten auszugleichen.
+                        Ziehe die Anzahl der ausgegebenen Punkte von deinem Luck-Konto ab.
                     </div>
                 </div>
             </div>
         </section>
         <section>
-            <h2>Allgemein</h2>
-            <div class="text-content">Zum Start eines Kampfes rollt jeder Spieler und der Spieleleiter (GM) Inittiative
-                (REF + 1d10). Die
-                Zahl des Wurfs bestimmt die Reihenfolge in der die Sieler und NSC dran sind. Je höher desto früher kommt
-                der
-                Charakter zum Zug. Wenn die Zahl des Wurfs bei mehreren Charakteren gleich, würfeln diese noch einmal.
+            <h2 id="common">Allgemein</h2>
+            <div class="text-content">Zum Start eines Kampfes rollen jeder Spieler und der Spieleleiter (GM) Initiative
+                (REF + 1d10). Die Zahl des Wurfes bestimmt die Reihenfolge, in der die Spieler und NSC dran sind.
+                Je höher der Wert, desto früher kommt der Charakter zum Zug. Wenn die Zahl des Wurfs bei mehreren
+                Charakteren gleich ist, würfeln diese noch einmal.
             </div>
-            <h2>Aktionen</h2>
+            <h2 id="actions">Aktionen</h2>
             <div class="text-content">Folgende Dinge können in Aktionen durchgeführt werden.</div>
             <div>
                 <div class="table">
@@ -121,101 +186,21 @@
                     </div>
                     <div class="row row-last">
                         <div class="col">Werfen</div>
-                        <div class="col">NET Aktionen nutzen</div>
+                        <div class="col">NET Aktionen nutzen (Net Runner)</div>
                         <div class="col col-last">Skill nutzen</div>
                     </div>
                 </div>
                 <div class="hint">
-                    * Mit Shild austatten oder fallen lassen<br>
+                    * Mit Schild ausstatten oder fallen lassen<br>
                     ** Aktion auf einen späteren Zeitpunkt der Runde halten. Es muss ein Trigger, der die Aktion
                     auslöst, bestimmt werden<br>
-                    *** Gegner der gehalten wird als Schutzschild nutzen
+                    *** Gegner, der gehalten wird als Schutzschild nutzen
                 </div>
                 <div class="text-content">
-                    Keine Aktionen sind: Ziehen von leicht zu erreichenden Waffen, Fallen lassen von Waffen, Ausnahme
-                    Schild. Waffen verstauen ist eine Aktion.
+                    Keine Aktionen sind: Ziehen von leicht zu erreichenden Waffen, Fallen lassen von Waffen (Ausnahme
+                    Schild). Waffen verstauen ist eine Aktion.
                 </div>
             </div>
-        </section>
-    </div>
-    <footer>
-        <div class="copyright">
-            Content © R. Talsorian Games, Inc. <br>
-            Code © Pockie
-        </div>
-        <div class="page-number">
-            Seite 1
-        </div>
-    </footer>
-</section>
-<section class="a4-portrait">
-    <div class="page-content">
-        <section>
-            <h2>Fernkampf (Ranged Combat)</h2>
-            <div class="dice-code">
-                <div class="dice-code-content">
-                    Angreifers REF + relevanter Waffenskill + 1d10 <br>
-                    vs. <br>
-                    Verteidigers DV oder Verteidigers Evasion (Ausweichen) Skill + 1d10
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Nahkampf (Melee Combat)</h2>
-            <div class="dice-code">
-                <div class="dice-code-content">
-                    Angreifers DEX + relevanter Nahkampfskill + 1 d10 <br>
-                    vs. <br>
-                    Verteigigers DEX + Evasion (Ausweichen) + 1d10
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Schaden entgegenwirken (in Deckung gehen)</h2>
-            <div class="text-content">Goldene Regeln der Deckung</div>
-            <div class="dice-code">
-                <div class="dice-code-content">
-                    Du bist in Deckung, wenn du komplett hinter einem Gegenstand bist, der eine Kugel stoppen kann <br>
-                    <br>
-                    Wenn du dich in Sichtlinie (Line of sight) zum Gegner befindest du nicht in Deckung <br> <br>
-                    Es gibt keine Teildeckung. Die Deckung kann entweder eine Kugel stoppen oder nicht <br> <br>
-                    Jede Deckung hat HP. Wenn die HP bei 0 sind ist die Deckung zerstört
-                </div>
-            </div>
-            <div class="text-content">
-                Ein Schild ist eine bewegliche Deckung und der Charakter kann es in die Sichtlinie des Gegners halten.
-                Menschliche Schilde sind unhandlicher als “normale” Schilde, das sich das “Schild” wehrt. Menschlcihe
-                Schilde können nicht als Nahkampfblock oder gegen geziehlt Schüsse genutzt werden.
-            </div>
-            <h2>Rüstung</h2>
-            <div class="text-content">
-                <p>
-                    Rüstung wird nach der SP gewertet. Sie kann am Körper und auf dem Kopf getragen werden. Schwere
-                    Rüstung senkt deine REFm DEX und MOVE. Es wird der höchste Malus-Wert deiner Rüstung genommen.
-                </p>
-                <p>
-                    SP durch Rüstung werden nciht gestapelt, d.h. die Rüstung mit dem höchsten Wert bestimmt deinen
-                    SP.
-                </p>
-            </div>
-            <h2>Schaden nehmen</h2>
-            <div class="text-content">
-                Wenn dein Gegner dich beim Würfeln besiegt, dann nimmst du Schaden.
-            </div>
-            <div class="dice-code">
-                <div class="dice-code-content">
-                    Dein Gegner würfelt den Schaden für seine Attacke. <br><br>
-                    Ziehe deine SP vom gewürfelten Schaden ab. <br> <br>
-                    Wenn du Schaden genommen hast, ziehe einen Punkt vom SP deiner Rüstung ab.
-                </div>
-            </div>
-            <div class="text-content">
-                Der Schaden wird immer von deiner Körperrüstung abgezogen, wenn der Gegner nicht direkt auf deinen Kopf
-                zielt. Deine Rüstung wirkt nicht gegen Dinge wie Gift oder Feuer.
-            </div>
-            <section>
-                <h2>Line of Sight</h2>
-            </section>
         </section>
     </div>
     <footer>
@@ -231,14 +216,109 @@
 <section class="a4-portrait">
     <div class="page-content">
         <section>
-            <h2>Role Abilities</h2>
+            <h2 id="ranged-combat">Fernkampf (Ranged Combat)</h2>
+            <div class="dice-code">
+                <div class="dice-code-content">
+                    Angreifer REF + relevanter Waffenskill + 1d10 <br>
+                    vs. <br>
+                    Verteidiger DV oder Verteidiger Evasion (Ausweichen) Skill + 1d10
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="melee-combat">Nahkampf (Melee Combat)</h2>
+            <div class="dice-code">
+                <div class="dice-code-content">
+                    Angreifer DEX + relevanter Nahkampfskill + 1 d10 <br>
+                    vs. <br>
+                    Verteidiger DEX + Evasion (Ausweichen) + 1d10
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="taking-cover">Schaden entgegenwirken (in Deckung gehen)</h2>
+            <div class="text-content">Goldene Regeln der Deckung</div>
+            <div class="dice-code">
+                <div class="dice-code-content">
+                    <p>Du bist in Deckung, wenn du komplett hinter einem Gegenstand bist, der eine Kugel stoppen kann</p>
+                    <p>Wenn du dich in Sichtlinie (Line of Sight) zum Gegner befindest, bist du nicht in Deckung</p>
+                    <p>Es gibt keine Teildeckung. Die Deckung kann entweder eine Kugel stoppen oder nicht</p>
+                    <p>Jede Deckung hat HP. Wenn die HP bei 0 sind, ist die Deckung zerstört</p>
+                </div>
+            </div>
             <div class="text-content">
-                Eine Rolle ist in CPR eine selbstbezeichnende Bezeichnung. Deine Rolle startet im Rang 4 in deiner Role
+                Ein Schild ist eine bewegliche Deckung und der Charakter kann es in die Sichtlinie des Gegners halten.
+                Menschliche Schilde sind unhandlicher als “normale” Schilde, da sich das “Schild” wehrt. Menschliche
+                Schilde können nicht als Nahkampfblock oder gegen geziehlte Schüsse genutzt werden.
+            </div>
+            <h2 id="armor">Rüstung</h2>
+            <div class="text-content">
+                <p>
+                    Rüstung wird nach der SP gewertet. Sie kann am Körper und auf dem Kopf getragen werden. Schwere
+                    Rüstung senkt deine REF, DEX und MOVE. Es wird der höchste Malus-Wert deiner Rüstung genommen.
+                </p>
+                <p>
+                    SP durch Rüstung werden nicht gestapelt, d.h. die Rüstung mit dem höchsten Wert bestimmt deinen
+                    SP.
+                </p>
+            </div>
+            <h2 id="getting-hurt">Schaden nehmen</h2>
+            <div class="text-content">
+                Wenn dein Gegner dich beim Würfeln besiegt, dann nimmst du Schaden.
+            </div>
+            <div class="dice-code">
+                <div class="dice-code-content">
+                    <p>Dein Gegner würfelt den Schaden für seine Attacke.</p>
+                    <p>Ziehe deine SP vom gewürfelten Schaden ab.</p>
+                    <p>Wenn du Schaden genommen hast, ziehe einen Punkt vom SP deiner Rüstung ab.</p>
+                </div>
+            </div>
+            <div class="text-content">
+                Der Schaden wird immer von deiner Körperrüstung abgezogen, wenn der Gegner nicht direkt auf deinen Kopf
+                zielt. Deine Rüstung wirkt nicht gegen Dinge wie Gift oder Feuer.
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="copyright">
+            Content © R. Talsorian Games, Inc. <br>
+            Code © Pockie
+        </div>
+        <div class="page-number">
+            Seite 3
+        </div>
+    </footer>
+</section>
+<section class="a4-portrait">
+    <div class="page-content">
+        <section>
+            <h2 id="line-of-sight">Line of Sight</h2>
+            <div class="text-content">
+                Work in Progress. Kommt noch.
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="copyright">
+            Content © R. Talsorian Games, Inc. <br>
+            Code © Pockie
+        </div>
+        <div class="page-number">
+            Seite 4
+        </div>
+    </footer>
+</section>
+<section class="a4-portrait">
+    <div class="page-content">
+        <section>
+            <h2 id="role-abilities">Role Abilities</h2>
+            <div class="text-content">
+                Eine Rolle ist in CPR eine Bezeichnung, kein Job. Deine Rolle startet im Rang 4 in seiner Role
                 Ability.
             </div>
-            <h3>Combat Awareness - Solo (<span class="bold">Agile</span>, Seite 146)</h3>
+            <h3 id="combat-awareness">Combat Awareness - Solo (<span class="bold">Agile</span>, Seite 146)</h3>
             <div class="text-content">
-                Die Ability kann for einem Kampf bevor die Initiative gerollt wird, jederzeit außerhalb eines Kampfes
+                Die Ability kann vor einem Kampf bevor die Initiative gerollt wird, jederzeit außerhalb eines Kampfes
                 oder in einem Kampf in einer Action genutzt werden.
             </div>
             <div class="table">
@@ -277,14 +357,14 @@
                 <div class="row even row-last">
                     <div class="col">Threat Detection</div>
                     <div class="col col-last">
-                        Du hast besseres Situationsbewusstsen. Für jedem Perception Check +1 hinzu.
+                        Du hast besseres Situationsbewusstsen. Füge jedem Perception Check +1 hinzu.
                     </div>
                 </div>
             </div>
-            <h3>Medicine - Medtech (<span class="bold">Xy</span>, Seite 149)</h3>
+            <h3 id="medicine">Medicine - Medtech (<span class="bold">Xy</span>, Seite 149)</h3>
             <div class="text-content">
                 Wenn der Medtech seinen Medicine Rang erhöht, kann er auch eine der Medicine Specialties auswählen und
-                im +1 erhöhen. Diese sind Chirurgie (Surgery), Medical Tech (Pharmazeutika) order Medical Tech
+                im +1 erhöhen. Diese sind Chirurgie (Surgery), Medical Tech (Pharmazeutika) oder Medical Tech
                 (Cryosytem Operation).
             </div>
             <div class="text-content bold">Surgery</div>
@@ -298,7 +378,7 @@
             </div>
             <div class="table">
                 <div class="row table-header">
-                    <div class="col">Ability</div>
+                    <div class="col">Pharmazeutika</div>
                     <div class="col col-last">Erklärung</div>
                 </div>
                 <div class="row">
@@ -338,7 +418,7 @@
             <div class="text-content">
                 Dieser Skill wird genutzt, um medizinisches Gerät zu benutzen, zu verstehen und zu reparieren. Mit jedem
                 neuen Punkt in dem Skill kannst du eine der folgenden Pharmazeutika herstellen.
-                <span class="bold">Siehe Seite 150 für die Leveltabelle.</span>
+                <span class="bold">Siehe Seite 150 für die Tabelle.</span>
             </div>
         </section>
     </div>
@@ -348,25 +428,26 @@
             Code © Pockie
         </div>
         <div class="page-number">
-            Seite 3
+            Seite 5
         </div>
     </footer>
 </section>
 <section class="a4-portrait">
     <div class="page-content">
         <section>
-            <h3>Credibility (Glaubwürdigkeit) - Media (<span class="bold">Shooting Star</span>, Seite 151)</h3>
+            <h3 id="credibility">Credibility (Glaubwürdigkeit) - Media (<span class="bold">Shooting Star</span>, Seite
+                151)</h3>
             <div class="text-content">
                 Media können ihr Publikum von etwas überzeugen. Je höher die Credibility, desto größer ist das Publikum.
-                Sie haben einen besseren Zugang zu Quellen und Information und haben die passive Fähigkeit Rumour
+                Du hast einen besseren Zugang zu Quellen und Information und du hast die passive Fähigkeit Rumour
                 (Gerücht).
             </div>
             <div class="text-content bold">Rumour</div>
             <div class="text-content">
-                Medias sind eng mit ihrem Informationsnetzwerk verbunden. Wenn ihr nicht komplett in der Einöde seid,
+                Medias sind eng mit ihrem Informationsnetzwerk verbunden. Wenn du nicht komplett in der Einöde bist,
                 kann der GM zweimal pro Woche ein Wurf <span class="bold"> Credibility Rank + 1d10</span> gegen den
-                Rumour DB in der Tabelle Seite
-                150 werfen. Der Media kann auch aktiv nach Rumours suchen. <span class="bold">Geeigneter STAT + relevanter Skill + 1d10.</span>
+                Rumour DV in der Tabelle Seite 150 werfen. Der Media kann auch aktiv nach Rumours suchen.
+                <span class="bold">Geeigneter STAT + relevanter Skill + 1d10.</span>
             </div>
             <div class="text-content">
                 Gerüchte sind oft nicht wahr und erzählen nie die komplette Geschichte.
@@ -380,7 +461,7 @@
                 <div class="row">
                     <div class="col">Access/Sources</div>
                     <div class="col col-last">
-                        Personen mit denen du in Kontakt treten / ein Interview geben kann oder von denen du weitere
+                        Personen mit denen du in Kontakt treten / ein Interview geben kannst oder von denen du weitere
                         Informationen bekommen kannst.
                     </div>
                 </div>
@@ -411,7 +492,7 @@
             <div class="text-content bold">
                 Siehe Seite 152 für nähere Informationen zum Credibility Rank und deinen Skill.
             </div>
-            <h3>Moto - Nomad (<span class="bold">Lily</span>, Seite 161)</h3>
+            <h3 id="moto">Moto - Nomad (<span class="bold">Lily</span>, Seite 161)</h3>
             <div class="text-content">
                 Der Unterschied zwischen den meisten Leuten und Nomads ist, dass die Nomads bessere Autos besitzen.
             </div>
@@ -423,7 +504,7 @@
             <div class="text-content bold">Family Motorpool</div>
             <div class="text-content">
                 <p>
-                    Wird jer Role Ability Rank erhöht, hast du zwei Optionen: 1. Ein neues Vehikel dem Pool hinzufügen
+                    Wird der Role Ability Rank erhöht, hast du zwei Optionen: 1. Ein neues Vehikel dem Pool hinzufügen
                     oder 2. ein vorhandenes Vehikel upgraden. Du kannst immer nur ein Vehikel aus dem Pool nutzen, dass
                     du jederzeit austauschen kannst, indem du ein Familienmitglied anrufst. Deine Familie muss aber in
                     der Nähe sein. Die Familie repariert dein Gefährt für 500eb und benötigt eine Woche Zeit.
@@ -438,7 +519,7 @@
             </div>
             <div class="text-content bold">Nomad Vehicle Upgrades</div>
             <div class="text-content">
-                    Siehe Seite 163 für die Tabelle des der Fahrzeuge
+                Siehe Seite 163 für die Tabelle des der Fahrzeuge
             </div>
         </section>
     </div>
@@ -448,7 +529,7 @@
             Code © Pockie
         </div>
         <div class="page-number">
-            Seite 4
+            Seite 6
         </div>
     </footer>
 </section>

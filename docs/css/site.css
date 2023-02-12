@@ -40,6 +40,22 @@ footer {
     background: white;
 }
 
+.toc-content {
+    margin-top: 1cm;
+}
+
+.toc-row {
+    margin-top: 0.3cm;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.toc-page {
+    display: none;
+}
+
 .copyright {
     margin-left: 1.4cm;
     padding-top: 10px;
@@ -194,6 +210,10 @@ table {
         background: url(../images/background.png);
         background-size: contain;
         box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    }
+
+    .toc-page {
+        display: block;
     }
 
     footer {
